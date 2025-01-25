@@ -26,4 +26,8 @@ jobs:
       run: npm install
   
     - name: Deploy on pages
-      run: npx ng deploy
+      run: |
+        npx angular-cli-ghpages --dir=dist/portfolio
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        CI: true
