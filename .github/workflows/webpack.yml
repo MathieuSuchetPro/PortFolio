@@ -30,7 +30,7 @@ jobs:
   
     - name: Deploy on pages
       run: |
-        npx angular-cli-ghpages --dir=dist/portfolio
+        npx ng deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         CI: true
