@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "build:prod": "ng build --configuration production --base-href https://MathieuSuchetPro.github.io/portfolio", 
+    "build:prod": "ng build --configuration production --base-href https://MathieuSuchetPro.github.io/PortFolio", 
     "test": "ng test"
   },
   "private": true,
