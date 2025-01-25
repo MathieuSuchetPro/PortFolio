@@ -26,4 +26,4 @@ jobs:
       run: npm install
   
     - name: Deploy on pages
-      run: ng deploy
+      run: npx ng deploy
