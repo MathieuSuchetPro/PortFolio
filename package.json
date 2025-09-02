@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "build:prod": "ng build --output-path docs --base-href /PortFolio/",
     "test": "ng test",
-    "deploy": "git add docs & git commit -m 'Commit docs' & git push"
+    "deploy": "git add docs & git commit -m \"Commit docs\" & git push"
   },
   "private": true,
   "dependencies": {
