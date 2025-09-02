@@ -38,7 +38,7 @@ jobs:
         run: npm run build:prod
 
       - name: Commit docs
-        run: npm run prepare:deploy; npm run version:control
+        run: npm run deploy
         
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
