@@ -6,8 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "build:prod": "ng build --configuration production --base-href https://MathieuSuchetPro.github.io/PortFolio",
-    "test": "ng test"
+    "build:prod": "ng build --output-path docs --base-href /PortFolio/",
+    "test": "ng test",
+    "deploy": "git add docs & git commit -m 'Commit docs' & git push"
   },
   "private": true,
   "dependencies": {
