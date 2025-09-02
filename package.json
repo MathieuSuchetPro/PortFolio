@@ -7,11 +7,11 @@
     "clean": "rm -r docs",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "build:prod": "npm run clean & ng build --output-path docs --base-href /PortFolio/",
+    "build:prod": "npm run clean && ng build --output-path docs --base-href /PortFolio/",
     "test": "ng test",
-    "prepare:deploy": "mv docs/browser/* docs/ & rm -r docs/browser",
-    "version-control": "git add docs & git commit -m \"Commit docs\" & git push",
-    "deploy": "npm run prepare:deploy & npm run version-control"
+    "prepare:deploy": "mv docs/browser/* docs/ && rm -r docs/browser",
+    "version-control": "git add docs && git commit -m \"Commit docs\" && git push",
+    "deploy": "npm run prepare:deploy && npm run version-control"
   },
   "private": true,
   "dependencies": {
